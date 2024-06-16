@@ -1,9 +1,9 @@
-There ARE missing DATE-_OF_BIRTH AND SOME OF the people have DEFAULT DATA value '01-JAN-00'
-Business wants TO know  18-25 , 26-50 AND OVER 50 years THEN OTHERS ARE remared AS unclassified
+--There ARE missing DATE-_OF_BIRTH AND SOME OF the people have DEFAULT DATE value '01-JAN-00'
+--Business wants TO know  18-25 , 26-50 AND OVER 50 years THEN OTHERS ARE remared AS unclassified
 
-IN the gender field also, there ARE M FOR Male AND F FOR Female and OTHERS will be unclassified 
+--IN the gender field also, there ARE M FOR Male AND F FOR Female and OTHERS will be unclassified 
 
-There need TO be filterd OUT which IS NOT HAVING IN other TABLE.
+--There need TO be filterd OUT which IS NOT HAVING IN other TABLE.
 
 FINAL RESULT must be Count OF Age GROUP based ON gender
 
