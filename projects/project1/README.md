@@ -1,4 +1,4 @@
-# This project contains SQL queries and analysis for a sales data project. 
+# This project contains SQL queries, analysis and visualization for a sales data project. 
 The dataset includes :
 transactions
 products
@@ -21,6 +21,10 @@ This project involves analyzing sales data to identify trends and insights.
 - Exploratory data analysis (EDA)
 - Data visualization
 
+## Tools
+- Google Bigquery (SQL)
+- Google Colab (Python)
+  
 ## Results
 - Identified top-selling products
 - Observed seasonal sales trends
