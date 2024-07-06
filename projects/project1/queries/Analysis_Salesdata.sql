@@ -114,34 +114,6 @@ group by P.Category, T.ProductID
 order by P.Category, T.ProductID;
 
 
--- Top Ten Products Per Year 
-
-with cte_top as
-(
-        
-select 
-        Extract (Year from Date) as Year ,
-        ProductID,
-        round(sum(TotalAmount)) as Sales_Amount,
-from sales_dataset.transactions 
-group by Year, ProductID
-)
-select 
-        B.Year, 
-        B.ProductID, 
-        P.ProductName,
-        B.rankproduct
-from ( select Year, 
-        ProductID, 
-        row_number() over(partition by Year order by Sales_Amount) as rankproduct
-from cte_top
-
-) B 
-left join sales_dataset.products P 
-on B.ProductID = P.ProductID
-where rankproduct <=10
-order by Year, rankproduct;
-
 
 
 
@@ -293,6 +265,39 @@ group by Category,ProductName
 where subquery.rown = 1
 
 
+
+----------------------
+
+
+-- Top Ten Products Per Year 
+
+with cte_top as
+(
+        
+select 
+        Extract (Year from Date) as Year ,
+        ProductID,
+        round(sum(TotalAmount)) as Sales_Amount,
+from sales_dataset.transactions 
+group by Year, ProductID
+)
+select 
+        B.Year, 
+        B.ProductID, 
+        P.ProductName,
+        B.rankproduct
+from ( select Year, 
+        ProductID, 
+        row_number() over(partition by Year order by Sales_Amount) as rankproduct
+from cte_top
+
+) B 
+left join sales_dataset.products P 
+on B.ProductID = P.ProductID
+where rankproduct <=10
+order by Year, rankproduct;
+
+
 -- Top selling products per Category
 select 
         subquery.Category,
@@ -402,15 +407,15 @@ order by Sales_Amount
 
 --Customers retention Analysis 
 
-SELECT 
+select 
     C.CustomerID,
     C.CustomerName,
-    ROUND(SUM(T.TotalAmount)) AS total_spent,
-    MAX(T.Date) AS last_purchase,
-    DATE_DIFF(CURRENT_DATE(), DATE(MAX(T.Date)), DAY) AS days_since_last_purchase -- number of inactive days 
-FROM sales_dataset.customers C
-LEFT JOIN sales_dataset.transactions T ON C.CustomerID = T.CustomerID
-GROUP BY C.CustomerID, C.CustomerName
-ORDER BY days_since_last_purchase DESC;
+    round(sum(T.TotalAmount)) AS total_spent,
+    max(T.Date) AS last_purchase,
+    date_diff(current_date(), date(max(T.Date)), day) AS days_since_last_purchase -- number of inactive days 
+from sales_dataset.customers C
+left join sales_dataset.transactions T ON C.CustomerID = T.CustomerID
+group by C.CustomerID, C.CustomerName
+order by days_since_last_purchase desc;
 
 
