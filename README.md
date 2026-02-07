@@ -14,7 +14,7 @@ This repository showcases a collection of analytics projects demonstrating my ca
 * [Project 4:Fitness Membership Analytics Challenge - Tin Nyein Thiri Lwin](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/commit/387d4b9f18acdf40344b41dee4eb1ab302db6598)
 * [Project 5:Sport\_Injuries\_Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Sport_Injuries_Analysis%20Dashboard)
 * [Project 6:Credit_Risk_Analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Credit_Risk_Analytics_Dashboard)
-* [Project 7:Customer_Churn_Analytics]([https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Credit_Risk_Analytics_Dashboard](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Churn_Analysis_by_AON_Report_TNTL) 
+* [Project 7:Customer_Churn_Analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Churn_Analysis_by_AON_Report_TNTL) 
 
 ## What This Portfolio Demonstrates
 Across these projects, I have worked on:
