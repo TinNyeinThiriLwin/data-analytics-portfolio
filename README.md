@@ -37,7 +37,7 @@ Tools are used as enablers to solve business problems, not as the end goal.
 
 
 ## Project Structure
-Each project folder typically includes:
+  ##Each project folder typically includes: 
 	• Problem statement and objectives
 	• Data preparation and analysis
 	• Key insights and findings
@@ -46,7 +46,7 @@ Each project folder typically includes:
 
 
 ## Professional Focus
-My analytics work is driven by:
+  ##My analytics work is driven by:
 	• Business impact over technical complexity
 	• Clear communication with non-technical stakeholders
 	• Revenue growth, customer retention, and operational efficiency
