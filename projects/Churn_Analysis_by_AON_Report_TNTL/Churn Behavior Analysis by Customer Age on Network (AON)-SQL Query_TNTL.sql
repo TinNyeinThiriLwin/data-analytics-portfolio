@@ -8,7 +8,7 @@ TO_CHAR(TO_DATE(day_key::VARCHAR,'YYYYMMDD'),'YYYYMM') AS MONTH ,
 msisdn,
 actvtn_dt,
 DATEDIFF(day,actvtn_dt::DATE,TO_DATE(day_key::VARCHAR,'YYYYMMDD')) AS AON
-FROM amlpvt3.f_sbscrptn_snpsht_dly
+FROM snpsht_dly
 WHERE day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'  --int - char to date
 AND DORMANCY_DAY_CNT < 30 
 AND CBS_STAT_CD <> 4
@@ -75,7 +75,7 @@ FROM CHURN_SUMMARY;
 --------------------------------------------------------------------------------------------------------------------------
 
 
-SELECT * FROM amlpvt3.f_sbscrptn_snpsht_dly LIMIT 10 ; 
+SELECT * FROM snpsht_dly LIMIT 10 ; 
 
 -- Activity making Customers Active 
 SELECT
@@ -87,7 +87,7 @@ SELECT
     life_cycle_stat_cd,
     main_acct_bal,
     ecb_acct_bal
-FROM amlpvt3.f_sbscrptn_snpsht_dly
+FROM snpsht_dly
 WHERE dormancy_day_cnt = 0
   AND last_actvty_dt IS NOT NULL
   AND day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'  -- int - char to date
@@ -109,7 +109,7 @@ SELECT
     last_cdr_actvty_typ,
     last_actvty_dt,
     inactvty_days_cnt
-FROM amlpvt3.f_sbscrptn_snpsht_dly
+FROM snpsht_dly
 WHERE msisdn = '959750211160' -- random pick
   AND day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'
 ORDER BY day_key DESC;
@@ -122,7 +122,7 @@ SELECT
     CASE WHEN DATEDIFF(day,actvtn_dt::DATE,TO_DATE(day_key::VARCHAR,'YYYYMMDD')) < 270 THEN '<270' ELSE '>270' END AS aon_group,
     last_cdr_actvty_typ,
     COUNT(*) AS activity_count
-FROM amlpvt3.f_sbscrptn_snpsht_dly
+FROM snpsht_dly
 WHERE aon IS NOT NULL
   AND day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'  -- int - char to date 
 GROUP BY 1, last_cdr_actvty_typ
@@ -130,7 +130,7 @@ ORDER BY aon_group, activity_count DESC;
 
 
 SELECT DISTINCT msisdn
-FROM amlpvt3.f_sbscrptn_snpsht_dly
+FROM snpsht_dly
 WHERE last_cdr_actvty_typ = 'DATA'
   AND aon < 270
   AND day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'
