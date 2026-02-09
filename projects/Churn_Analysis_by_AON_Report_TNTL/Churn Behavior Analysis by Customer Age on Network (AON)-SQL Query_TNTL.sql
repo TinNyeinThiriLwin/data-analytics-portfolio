@@ -93,13 +93,7 @@ WHERE dormancy_day_cnt = 0
   AND day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'  -- int - char to date
 ORDER BY day_key DESC;
 
---959740012993
---959740011800
---959740013353
---959740020447
---959740020630
---959750026212
---959754314195
+
 
 SELECT
     msisdn,
@@ -110,7 +104,7 @@ SELECT
     last_actvty_dt,
     inactvty_days_cnt
 FROM snpsht_dly
-WHERE msisdn = '959750211160' -- random pick
+WHERE msisdn = '95975xxxxxxx' -- random pick
   AND day_key BETWEEN TO_NUMBER(TO_CHAR(ADD_MONTHS(DATE '2025-04-30', -6), 'YYYYMMDD')) AND '20250430'
 ORDER BY day_key DESC;
 
