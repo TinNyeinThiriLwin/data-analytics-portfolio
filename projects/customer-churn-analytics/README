@@ -1,0 +1,134 @@
+# 📊 Customer Churn Analytics & Retention Strategy  
+
+---
+
+## 📌 Key Finding  
+
+Customers with **Age on Network (AON) < 270 days** are significantly more likely to churn compared to long-term customers.  
+Statistical testing confirms a strong difference in churn behavior, and **customer activity—especially DATA usage—is a key driver of retention**.
+
+---
+
+## 🧠 Business Problem  
+
+Customer churn directly impacts revenue and growth in the telecom industry.  
+The business needs to identify **high-risk customer segments** and understand **behavioral patterns** to improve retention strategies.
+
+---
+
+## 🎯 Objective  
+
+To analyze customer churn behavior using Age on Network (AON) segmentation and validate whether newer customers are more likely to churn.  
+
+---
+
+## 🛠 Tools Used  
+
+- **SQL** – Data extraction and churn logic  
+- **Python (Pandas)** – Data analysis and feature engineering  
+- **Statistical Testing** – Two-Proportion Z-Test  
+- **Power BI / Visualization** – Dashboard and insights (optional)  
+
+---
+
+## 📊 Methodology  
+
+### Step 1: Data Preparation  
+- Used 6 months of subscriber snapshots (Nov 2024 – Apr 2025)  
+- Tracked customer activity using unique identifier (MSISDN)  
+
+---
+
+### Step 2: Customer Segmentation  
+Customers were grouped based on Age on Network (AON):  
+
+- **AON < 270 days** → New customers  
+- **AON ≥ 270 days** → Established customers  
+
+---
+
+### Step 3: Churn Identification  
+
+- Compared customer presence between consecutive months  
+- If a customer (MSISDN) does not appear in the next month → marked as **churned**  
+
+---
+
+### Step 4: Churn Analysis  
+
+- Calculated churned vs non-churned customers for each segment  
+- Compared churn rates between AON groups  
+
+---
+
+### Step 5: Hypothesis Testing  
+
+- **Method:** Two-Proportion Z-Test  
+- **Null Hypothesis (H₀):** No difference in churn rates  
+- **Alternative Hypothesis (H₁):** Significant difference exists  
+
+**Result:**  
+- P-value < 0.01 → Strong statistical significance  
+- Conclusion: **Churn rates differ significantly between groups**  
+
+---
+
+## 📈 Key Insights  
+
+- Customers with **AON < 270 days** have significantly higher churn risk  
+- Customer retention improves after reaching **270+ days lifecycle**  
+- Early-stage customer engagement is critical for long-term retention  
+- Churn risk increases with inactivity  
+
+---
+
+## ⭐ Key Behavioral Insight  
+
+**DATA usage is the strongest driver of customer activity and retention.**  
+
+- When customers use data services, their dormancy resets  
+- Active customers are significantly less likely to churn  
+- New customers rely more heavily on DATA usage to remain active  
+
+---
+
+## 💡 Business Recommendations  
+
+- Focus retention efforts on customers within the first 270 days  
+- Implement targeted engagement campaigns for new users  
+- Promote DATA usage through incentives and offers  
+- Monitor inactivity (dormancy) as an early churn signal  
+- Prioritize high-value customers for proactive retention  
+
+---
+
+## 📊 KPIs Used  
+
+- Churn Rate  
+- Active vs Inactive Customers  
+- Customer Lifecycle (AON)  
+- Customer Activity (Dormancy)  
+
+---
+
+## 📷 Dashboard / Visualization  
+
+*(Add your charts or Power BI screenshots here)*  
+
+Examples:  
+- Churn Rate by AON Segment  
+- Customer Activity Trends  
+- Segmentation Analysis  
+
+---
+
+## 🚀 Outcome  
+
+- Identified high-risk customer segment (AON < 270 days)  
+- Validated churn behavior using statistical testing  
+- Provided actionable insights for retention strategy  
+- Demonstrated end-to-end analytics workflow  
+
+---
+
+## 📁 Project Structure  
