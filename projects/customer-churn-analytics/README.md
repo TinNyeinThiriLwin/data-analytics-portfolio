@@ -113,12 +113,8 @@ Customers were grouped based on Age on Network (AON):
 
 ##  Dashboard / Visualization  
 
-*(Add your charts or Power BI screenshots here)*  
 
-Examples:  
-- Churn Rate by AON Segment  
-- Customer Activity Trends  
-- Segmentation Analysis  
+
 
 ---
 
