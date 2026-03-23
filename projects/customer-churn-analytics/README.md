@@ -31,7 +31,7 @@ To analyze customer churn behavior using Age on Network (AON) segmentation and v
 
 ---
 
-## 📊 Methodology  
+##  Methodology  
 
 ### Step 1: Data Preparation  
 - Used 6 months of subscriber snapshots (Nov 2024 – Apr 2025)  
