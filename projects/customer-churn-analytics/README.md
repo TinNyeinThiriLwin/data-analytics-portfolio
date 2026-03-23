@@ -125,19 +125,3 @@ Customers were grouped based on Age on Network (AON):
 - Provided actionable insights for retention strategy  
 - Demonstrated end-to-end analytics workflow  
 
----
-
-##  Project Structure  
-│
-├── data/
-├── sql/
-├── python/
-├── images/
-└── README.md
-
-
----
-
-## 💬 Summary  
-
-This project demonstrates how data analytics can be used to identify churn patterns, validate business hypotheses, and support data-driven decision-making in a telecom environment.
