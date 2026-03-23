@@ -1,28 +1,28 @@
-# 📊 Customer Churn Analytics & Retention Strategy  
+#  Customer Churn Analytics & Retention Strategy  
 
 ---
 
-## 📌 Key Finding  
+##  Key Finding  
 
 Customers with **Age on Network (AON) < 270 days** are significantly more likely to churn compared to long-term customers.  
 Statistical testing confirms a strong difference in churn behavior, and **customer activity—especially DATA usage—is a key driver of retention**.
 
 ---
 
-## 🧠 Business Problem  
+##  Business Problem  
 
 Customer churn directly impacts revenue and growth in the telecom industry.  
 The business needs to identify **high-risk customer segments** and understand **behavioral patterns** to improve retention strategies.
 
 ---
 
-## 🎯 Objective  
+##  Objective  
 
 To analyze customer churn behavior using Age on Network (AON) segmentation and validate whether newer customers are more likely to churn.  
 
 ---
 
-## 🛠 Tools Used  
+##  Tools Used  
 
 - **SQL** – Data extraction and churn logic  
 - **Python (Pandas)** – Data analysis and feature engineering  
@@ -73,7 +73,7 @@ Customers were grouped based on Age on Network (AON):
 
 ---
 
-## 📈 Key Insights  
+##  Key Insights  
 
 - Customers with **AON < 270 days** have significantly higher churn risk  
 - Customer retention improves after reaching **270+ days lifecycle**  
@@ -82,7 +82,7 @@ Customers were grouped based on Age on Network (AON):
 
 ---
 
-## ⭐ Key Behavioral Insight  
+##  Key Behavioral Insight  
 
 **DATA usage is the strongest driver of customer activity and retention.**  
 
@@ -92,7 +92,7 @@ Customers were grouped based on Age on Network (AON):
 
 ---
 
-## 💡 Business Recommendations  
+##  Business Recommendations  
 
 - Focus retention efforts on customers within the first 270 days  
 - Implement targeted engagement campaigns for new users  
@@ -102,7 +102,7 @@ Customers were grouped based on Age on Network (AON):
 
 ---
 
-## 📊 KPIs Used  
+##  KPIs Used  
 
 - Churn Rate  
 - Active vs Inactive Customers  
@@ -111,7 +111,7 @@ Customers were grouped based on Age on Network (AON):
 
 ---
 
-## 📷 Dashboard / Visualization  
+##  Dashboard / Visualization  
 
 *(Add your charts or Power BI screenshots here)*  
 
@@ -122,7 +122,7 @@ Examples:
 
 ---
 
-## 🚀 Outcome  
+##  Outcome  
 
 - Identified high-risk customer segment (AON < 270 days)  
 - Validated churn behavior using statistical testing  
@@ -131,7 +131,7 @@ Examples:
 
 ---
 
-## 📁 Project Structure  
+##  Project Structure  
 │
 ├── data/
 ├── sql/
