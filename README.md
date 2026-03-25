@@ -10,10 +10,10 @@
 
 ## 📂 All Projects
 
-* [Project 1: Sales Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/project1-SalesAnalysis)
-* [Project 2: Titanic\_Data\_Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/project2)
-* [Project 3: E-Commerce\_Sales\_Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/E-Commerce_Sales_Analysis)
-* [Project 4:Fitness Membership Analytics Challenge - Tin Nyein Thiri Lwin](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/commit/387d4b9f18acdf40344b41dee4eb1ab302db6598)
-* [Project 5:Sport\_Injuries\_Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Sport_Injuries_Analysis%20Dashboard)
-* [Project 6:Credit_Risk_Analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Credit_Risk_Analytics_Dashboard)
-* [Project 7:Customer_Churn_Analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/Churn_Analysis_by_AON_Report_TNTL) 
+* [Project 1: customer_churn_analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/01-customer-churn-analytics)
+* [Project 2: credit_risk_analytics_dashboard](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/02-credit_risk_analytics_dashboard)
+* [Project 3: mobile_sales_dashboard](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/03-mobile_sales_dashboard)
+* [Project 4: e_commerce_sales_analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/04-e-commerce_sales_analysis)
+* [Project 5: sales_analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/05-sales_analysis)
+* [Project 6: sport_injuries_analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/06-sport_injuries_analysis-dashboard)
+* [Project 7: fitness_membership_analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/07-fitness-membership-analytics)
