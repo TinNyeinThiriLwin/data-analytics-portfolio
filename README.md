@@ -8,7 +8,7 @@
 - Discovered DATA usage as key retention driver  
 - Delivered actionable business recommendations  
 
-## Projects
+## 📂 All Projects
 
 * [Project 1: Sales Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/project1-SalesAnalysis)
 * [Project 2: Titanic\_Data\_Analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/project2)
