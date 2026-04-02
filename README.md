@@ -11,7 +11,7 @@
 ## 📂 All Projects
 
 * [Project 1: customer_churn_analytics](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/01-customer-churn-analytics)
-* [Project 2: credit_risk_analytics_dashboard]([https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/02-credit_risk_analytics_dashboard](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/02-credit-risk-analytics-dashboard))
+* [Project 2: credit_risk_analytics_dashboard](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/02-credit-risk-analytics-dashboard)
 * [Project 3: mobile_sales_dashboard](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/03-mobile_sales_dashboard)
 * [Project 4: e_commerce_sales_analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/04-e-commerce_sales_analysis)
 * [Project 5: sales_analysis](https://github.com/TinNyeinThiriLwin/data-analytics-portfolio/tree/main/projects/05-sales_analysis)
