@@ -79,3 +79,8 @@ Interactive filters (income, loan size, risk level)
 
 ## Dashboard Preview
 
+
+<img width="1446" height="915" alt="Screenshot 2026-04-12 214159" src="https://github.com/user-attachments/assets/df4efebe-42e6-4dd6-acf8-0cf74ab67bdd" />
+<img width="1437" height="911" alt="Screenshot 2026-04-12 214244" src="https://github.com/user-attachments/assets/5d32f468-6911-48f6-b7c0-63e4f9cebb54" />
+<img width="1432" height="917" alt="Screenshot 2026-04-12 214300" src="https://github.com/user-attachments/assets/fd0e85dd-33ea-4dfd-ba83-3d6a08db9fb2" />
+
