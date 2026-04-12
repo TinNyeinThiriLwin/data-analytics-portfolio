@@ -111,13 +111,6 @@ Customers were grouped based on Age on Network (AON):
 
 ---
 
-##  Dashboard / Visualization  
-
-
-
-
----
-
 ##  Outcome  
 
 - Identified high-risk customer segment (AON < 270 days)  
