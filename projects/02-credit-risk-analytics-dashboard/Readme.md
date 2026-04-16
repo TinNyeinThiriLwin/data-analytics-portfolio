@@ -10,7 +10,9 @@ Customer demographics (age, income, employment status)
 Loan details (loan amount, type, duration)
 Credit history (past defaults, payment behavior)
 Loan status (Default / Non-default)
-🛠 Tools & Technologies
+
+## Tools & Technologies
+
 SQL (data extraction, joins, aggregations)
 Power BI (dashboard & visualization)
 Excel (data cleaning & preprocessing)
@@ -38,7 +40,6 @@ Segmented customers into:
 Low Risk
 Medium Risk
 High Risk
-
 Based on:
 Income level
 Existing debt
@@ -48,6 +49,7 @@ Credit history
 Analyzed relationship between:
 Loan amount vs default rate
 Income vs repayment behavior
+
 4. Customer Profile Analysis
 Identified high-risk customer profiles:
 Low income + high loan amount
