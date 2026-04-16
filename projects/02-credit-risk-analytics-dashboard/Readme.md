@@ -64,6 +64,7 @@ Borrowers with previous credit issues have a strong correlation with default
 Large loans without proper income backing increase risk exposure
 
  ## Recommendations
+ 
 Introduce stricter checks for high loan-to-income applicants
 Implement risk-based pricing (higher interest for higher risk)
 Prioritize approval for customers with:
@@ -72,6 +73,7 @@ Strong credit history
 Develop early warning systems for high-risk customers
 
 ## Dashboard Features (Power BI)
+
 Default rate KPI
 Risk segmentation visuals
 Loan distribution analysis
