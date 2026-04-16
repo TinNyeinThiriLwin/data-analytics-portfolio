@@ -3,7 +3,6 @@
 Which customers are most likely to default on loans?
 What factors contribute to higher credit risk?
 How can the bank reduce potential losses while maintaining loan growth?
-📂 Dataset
 
 ## The dataset includes:
 
